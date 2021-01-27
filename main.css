@@ -1,0 +1,81 @@
+body {
+  background-color: #FAFAFA;
+}
+
+main {
+  border: 2px solid hotpink;
+  padding: 2em;
+}
+
+#nav-container {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid yellow;
+  padding: 1em;
+}
+
+#nav-logo {
+  border: 2px solid hotpink;
+}
+
+#nav-menu {
+  border: 2px solid hotpink;
+}
+
+#about-me-container {
+  border: 2px solid green;
+  padding: 2em;
+}
+
+#about-me-text-container {
+  border: 2px solid orange;
+  padding: 2em;
+}
+
+#about-me-image {
+  border: 2px solid orange;
+}
+
+img {
+width: 400px;
+padding: 2em;
+}
+
+#bottom-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#about-img {
+  width: 100px
+}
+
+#about-graphic {
+  border: 2px solid orange;
+}
+
+#first-name {
+  border: 2px solid hotpink;
+}
+
+#last-name {
+  border: 2px solid hotpink;
+}
+
+#about-me-paragraph {
+  border: 2px solid hotpink;
+}
+
+#icon-section {
+  display: flex;
+  justify-content: flex-start;
+  border: 2px solid hotpink;
+}
+
+#contact-me-button {
+  border: 2px solid hotpink;
+}
+
+#footer {
+  text-align: center;
+}
