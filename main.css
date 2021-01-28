@@ -21,9 +21,6 @@ main {
   margin-right: 10em;
 }
 
-#nav-menu {
-}
-
 #about-me-container {
   display: flex;
   justify-content: center;
@@ -95,17 +92,12 @@ padding: 2em;
 #icon-section {
   display: flex;
   justify-content: flex-start;
-}
-
-#contact-me-button {
-  background-color: white;
-  width: 7em;
-  height: 3em;
+  margin-left: 1em;
 }
 
 #github {
   width: 2em;
-  margin-left: -2em;
+  margin-left: -3em;
   font-weight: bolder;
 }
 
