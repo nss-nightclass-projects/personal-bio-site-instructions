@@ -3,77 +3,102 @@ body {
 }
 
 main {
-  border: 2px solid hotpink;
-  padding: 2em;
+
 }
 
 #nav-container {
   display: flex;
   justify-content: space-between;
-  border: 2px solid yellow;
-  padding: 1em;
 }
 
-#nav-logo {
-  border: 2px solid hotpink;
+#logo-block {
+  width: 6em;
+  margin-left: 10em;
 }
 
-#nav-menu {
-  border: 2px solid hotpink;
+#nav-button-placeholder {
+  width: 3em;
+  margin-right: 10em;
 }
 
 #about-me-container {
-  border: 2px solid green;
-  padding: 2em;
+  display: flex;
+  justify-content: center;
+  margin-top: -2em;
 }
 
 #about-me-text-container {
-  border: 2px solid orange;
-  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10em;
+  margin-top: 6em;
 }
 
-#about-me-image {
-  border: 2px solid orange;
+#profile-image-container {
+  width: 30em;
 }
 
 img {
-width: 400px;
+width: 480px;
 padding: 2em;
+}
+
+#about-img {
+  width: 2em;
+  margin-top: -2.3em;
+}
+
+#about-graphic {
+  font-size: 1.2em;
+
+}
+
+#first-name {
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: -.5em;
+  margin-left: 5px;
+
+
+}
+
+#last-name {
+  font-size: 6em;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#about-paragraph-section {
+  display: flex;
+  justify-content: flex-start;
+  width: 40em;
+  margin-top: 2em;
+}
+
+#about-me-paragraph {
+  padding-right: 5em;
+  margin-left: 2em;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #bottom-section {
   display: flex;
   flex-direction: column;
-}
-
-#about-img {
-  width: 100px
-}
-
-#about-graphic {
-  border: 2px solid orange;
-}
-
-#first-name {
-  border: 2px solid hotpink;
-}
-
-#last-name {
-  border: 2px solid hotpink;
-}
-
-#about-me-paragraph {
-  border: 2px solid hotpink;
+  margin-left: 9.5em;
+  margin-top: -6em;
 }
 
 #icon-section {
   display: flex;
   justify-content: flex-start;
-  border: 2px solid hotpink;
+  margin-left: 1em;
 }
 
-#contact-me-button {
-  border: 2px solid hotpink;
+#github {
+  width: 2em;
+  margin-left: -3em;
+  font-weight: bolder;
 }
 
 #footer {
