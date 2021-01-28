@@ -3,6 +3,7 @@ body {
 }
 
 main {
+
 }
 
 #nav-container {
@@ -10,18 +11,23 @@ main {
   justify-content: space-between;
 }
 
-#nav-logo {
+#logo-block {
+  width: 6em;
+  margin-left: 10em;
+}
 
+#nav-button-placeholder {
+  width: 3em;
+  margin-right: 0em;
 }
 
 #nav-menu {
-
 }
 
 #about-me-container {
   display: flex;
   justify-content: center;
-  margin-top: 3em;
+  margin-top: -2em;
 }
 
 #about-me-text-container {
@@ -36,7 +42,7 @@ main {
 }
 
 img {
-width: 540px;
+width: 480px;
 padding: 2em;
 }
 
@@ -54,6 +60,7 @@ padding: 2em;
   font-size: 3em;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: -.5em;
+  margin-left: 5px;
 
 
 }
@@ -74,6 +81,7 @@ padding: 2em;
 #about-me-paragraph {
   padding-right: 5em;
   margin-left: 2em;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -96,15 +104,9 @@ padding: 2em;
 }
 
 #github {
-  width: 3.5em;
-  margin-left: -3em;
+  width: 2em;
+  margin-left: -2em;
   font-weight: bolder;
-}
-
-
-#medium {
-  width: 3.5em;
-  margin-left: -3em;
 }
 
 #footer {
