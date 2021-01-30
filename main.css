@@ -21,7 +21,7 @@ main {
   margin-right: 10em;
 }
 
-#about-me-container {
+#bioPage {
   display: flex;
   justify-content: center;
   background-image: url(./images/background2.png);
@@ -93,14 +93,14 @@ b {
   display: flex;
   flex-direction: column;
   margin-left: 9.5em;
-  margin-top: -4em;
+  margin-top: 0em;
 }
 
 #icon-section {
   display: flex;
   justify-content: flex-start;
   margin-left: 1em;
-  margin-top: 1em;
+  margin-top: 0em;
 }
 
 #github {
