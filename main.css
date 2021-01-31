@@ -3,77 +3,112 @@ body {
 }
 
 main {
-  border: 2px solid hotpink;
-  padding: 2em;
+
 }
 
 #nav-container {
   display: flex;
   justify-content: space-between;
-  border: 2px solid yellow;
-  padding: 1em;
 }
 
-#nav-logo {
-  border: 2px solid hotpink;
+#logo-block {
+  width: 6em;
+  margin-left: 2em;
 }
 
-#nav-menu {
-  border: 2px solid hotpink;
+#nav-button-placeholder {
+  width: 3em;
+  margin-right: 10em;
 }
 
-#about-me-container {
-  border: 2px solid green;
-  padding: 2em;
+#bioPage {
+  display: flex;
+  justify-content: center;
+  background-image: url(./images/background2.png);
+  background-repeat: no-repeat;
+  margin-top: 0em;
+  margin-bottom: 3em;
 }
 
 #about-me-text-container {
-  border: 2px solid orange;
-  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10em;
+  margin-top: 6em;
 }
 
-#about-me-image {
-  border: 2px solid orange;
+#profile-image-container {
+  width: 30em;
 }
 
 img {
-width: 400px;
+width: 480px;
 padding: 2em;
+}
+
+#about-img {
+  width: 2em;
+  margin-top: -2.3em;
+}
+
+#about-graphic {
+  font-size: 1.2em;
+
+}
+
+#first-name {
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: -.5em;
+  margin-left: 5px;
+
+
+}
+
+#last-name {
+  font-size: 4em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: .3em;
+}
+
+#about-paragraph-section {
+  display: flex;
+  justify-content: flex-start;
+  width: 40em;
+  margin-top: 2em;
+}
+
+#about-me-paragraph {
+  padding-right: 5em;
+  margin-left: 2em;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3em;
+}
+
+b {
+  color: darkorchid;
+  font-size: 1.2em;
 }
 
 #bottom-section {
   display: flex;
   flex-direction: column;
-}
-
-#about-img {
-  width: 100px
-}
-
-#about-graphic {
-  border: 2px solid orange;
-}
-
-#first-name {
-  border: 2px solid hotpink;
-}
-
-#last-name {
-  border: 2px solid hotpink;
-}
-
-#about-me-paragraph {
-  border: 2px solid hotpink;
+  margin-left: 7em;
+  margin-top: 0em;
 }
 
 #icon-section {
   display: flex;
   justify-content: flex-start;
-  border: 2px solid hotpink;
+  margin-left: 0em;
+  margin-top: 1em;
 }
 
-#contact-me-button {
-  border: 2px solid hotpink;
+#github {
+  width: 2em;
+  margin-left: -3em;
+  font-weight: bolder;
 }
 
 #footer {
