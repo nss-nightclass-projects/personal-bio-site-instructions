@@ -25,7 +25,9 @@ main {
   display: flex;
   justify-content: center;
   background-image: url(./images/background2.png);
-  margin-top: -2em;
+  background-repeat: no-repeat;
+  margin-top: 0em;
+  margin-bottom: 3em;
 }
 
 #about-me-text-container {
@@ -92,15 +94,15 @@ b {
 #bottom-section {
   display: flex;
   flex-direction: column;
-  margin-left: 9.5em;
+  margin-left: 7em;
   margin-top: 0em;
 }
 
 #icon-section {
   display: flex;
   justify-content: flex-start;
-  margin-left: 1em;
-  margin-top: 0em;
+  margin-left: 0em;
+  margin-top: 1em;
 }
 
 #github {
