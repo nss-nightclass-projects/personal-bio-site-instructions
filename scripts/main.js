@@ -1,7 +1,8 @@
-// Imported Functions
-import { getProjects } from "./projectsData.js";
+// Imported Function
+import { projects, getProjects } from './projectsData.js';
 console.log("personal-bio");
 
+// function prints the projects car to the first parentChild <div/id element in Dom
 const printToDom = (id, textPrint) => {
   const selectedDiv = document.querySelector(divId);
   selectedDiv.innerHTML = textPrint;
@@ -18,7 +19,7 @@ const createProjectCards = function (available) {
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item">Cras justo odio</li>
+        <li class="list-group-item">Journal</li>
         <li class="list-group-item">Dapibus ac facilisis in</li>
         <li class="list-group-item">Vestibulum at eros</li>
       </ul>
@@ -35,7 +36,9 @@ const createProjectCards = function (available) {
   }
 };
 
+// initializes the function createProjectCard
 function init() {
   createProjectCards(projects);
 };
+// invokes the function
 init();
