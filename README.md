@@ -1,38 +1,21 @@
-Personal Bio - Portfolio
-_______________________________________________
+# Overview
+_________________________________________
 
-DATE: Feb - June 2021
-
-PROJECT NAME: Personal Bio Site
-
-PROJECT OVERVIEW: Personal Portfolio Site
-
-MOTIVATION: Employment
-
-LANGUAGE: Vanilla JS
-
-API:
-
-HOW TO TEST:
-
-HOW TO USE: Click on links to redirect to social media contact pages
-
-WIREFRAME:
-
-LOOM VIDEO DEMO:
-
-NELIFY WEBSITE:
-
-PROJECT BOARD:
-
-USER STORY:
-
-FEATURES:
-
-SCREENSHOTS:
-
-CONTRIBUTORS:
-
-CREDITS:
-
+Title: 
+Date:
+Project Duration: 
+Description: This is my personal portfolio site. Currently under construction
+Technologies Used: "HTML, CSS, Vanilla JavaScript, Version Control with Github
+Api:
+Features:
+How To Use: 
+How To Test:
+Loom: ""
+Nelify: "https://danicrosby-bio.netlify.app/"
+githubUrl: "https://github.com/danicrosby"
+Screenshots: ""
+Project Board: ""
+Wireframe: ""
+Contributors:
+Credits
 © Dani Crosby

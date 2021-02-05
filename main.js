@@ -1,14 +1,14 @@
-console.log("Greetings beautiful from main.js");
+console.log('Hello, World!')
 
 const projects = [
   {
-    title: "Project Name",
-    screenshot: "http://gotoflashgames.com/files/file/033.jpg",
-    description: "Description", 
-    technologiesUsed:"HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    title: "Personal Bio", 
+    screenshot: "https://danicrosby-bio.netlify.app/", 
+    description: "This is my personal portfolio site. Under construction",
+    technologiesUsed: "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     available: true,
-    url: "https://github.com/nss-evening-cohort-8/js-part-deux", 
-    githubUrl: "https://github.com/nss-evening-cohort-8/js-part-deux",
+    url: "https://danicrosby-bio.netlify.app/",
+    githubUrl: "https://github.com/danicrosby",
   },
 ];
 
