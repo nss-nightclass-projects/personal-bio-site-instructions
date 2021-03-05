@@ -1,13 +1,13 @@
 import renderToDom from './helpers/renderToDom';
 
-const printToProjectsPage = () => {
+const projectsPage = () => {
   let domString = '';
   domString += `
 
-  
+
   `;
 
   renderToDom('projects-page', domString);
 };
 
-export default printToProjectsPage;
+export default projectsPage;

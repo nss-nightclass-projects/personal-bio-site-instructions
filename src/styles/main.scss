@@ -9,26 +9,28 @@ body {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  // background-image: url(${about2});
-  // background-repeat: no-repeat;
-  // background-size: 80%;
-  // background-position: 80%;
+  background-image: url(./assets/about2.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: 25em;
 }
 
-#nav-section {
+#tech-page {
+  background-image: url(./assets/about2.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: 25em;
+}
+
+li a {
+  text-decoration: none;
+  color: grey;
+}
+
+#about-me-page {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-
-}
-
-#nav-logo {
-  width: 5em;
-}
-
-#nav-dropdown {
-  width: 3em;
-  margin-right: 10em;
+  justify-content: flex-end;
+  margin-top: 5em;
 }
 
 #profile-image {
@@ -61,11 +63,6 @@ body {
   margin-top: 2em;
 }
 
-#about-me-page {
-  display: flex;
-  justify-content: center;
-}
-
 #paragraph-container {
   display: flex;
   justify-content: center;
@@ -91,6 +88,7 @@ b {
 
 #social-icons {
   width: 3em;
+  margin-right: 1.5em;
 }
 
 #footer {
