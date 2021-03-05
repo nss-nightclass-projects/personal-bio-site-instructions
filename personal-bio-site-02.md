@@ -1,7 +1,3 @@
-
-
-1.  Modify your navbar so when you click a link it either a. Hides all divs except the one you clicked on OR b. scrolls down the page to tht specific section.  Totally your choice - just pick one.
-
 ### Modify projects
 1.  Move your projects array into a projectsData file in helpers.
 1.  Create a getProjects method that returns the projects array to whatever dom string builder needs the array
