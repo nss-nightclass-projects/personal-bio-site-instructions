@@ -1,15 +1,18 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
 body {
   background-color: #fafafa;
 }
 
-main {
+#app {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  background-image: url(./images/Background-About.png);
-  background-repeat: no-repeat;
-  background-size: 80%;
-  background-position: 80%;
+  // background-image: url(${about2});
+  // background-repeat: no-repeat;
+  // background-size: 80%;
+  // background-position: 80%;
 }
 
 #nav-section {
