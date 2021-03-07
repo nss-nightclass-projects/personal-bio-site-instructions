@@ -5,7 +5,10 @@ const initialScreen = () => {
   domString += `     
   <main>
     <nav id="nav-container"></nav>
-    <div class="container" id="about-me-page"></div> <hr>
+    <div class="container" id="about-me-page"></div>
+    <div class="container" id="tech-page"></div>
+    <div class="container" id="projects-page"></div> 
+    <div class="container" id="footer"></div>
   </main>
   
   `;

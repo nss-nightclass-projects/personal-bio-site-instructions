@@ -23,13 +23,13 @@ const aboutMePage = () => {
         <img src="${about1}" id="about-image">
 
         <p id="about-me-paragraph">
-          My name is <b>Dani Crosby</b>, and I'm a junior developer
+          My name is <b>Dani Crosby</b>, and I'm a student
           studying Javascript, C#, and .Net at Nashville Software School.
           I have a background in home organization, welding, and as a
           small business owner. I hope to integrate my new software skills
           and passion for workflow efficiency to promote work-life balance
-          within an ethical company. I also enjoy mowing my lawn, senior
-          dogs, and daily hot cup of chai.
+          within an ethical company. I also enjoy mowing my lawn, helping senior
+          dogs, and a daily hot cup of chai.
         </p>
       </div>
     </section>
