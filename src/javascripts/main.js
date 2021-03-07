@@ -1,17 +1,11 @@
-// USE WITH FIREBASE AUTH
-// import checkLoginStatus from './helpers/auth';
+// import checkLoginStatus from './helpers/router';
+
 import 'bootstrap'; // import bootstrap elements and js
 import '../styles/main.scss';
-import aboutMePage from './aboutMe';
-import navBar from './components/navBar';
-import initialScreen from './initialScreen';
+import startApp from './views/startApp';
 
 const init = () => {
-  initialScreen();
-  navBar();
-  aboutMePage();
-
-  // USE WITH FIREBASE AUTH
+  startApp();
   // checkLoginStatus();
 };
 
