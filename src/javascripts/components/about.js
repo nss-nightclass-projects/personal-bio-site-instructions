@@ -5,7 +5,7 @@ import linkedIn from '../../styles/assets/linkedIn.png';
 import medium from '../../styles/assets/medium.png';
 import dog from '../../styles/assets/dog.png';
 
-const aboutMePage = () => {
+const aboutPage = () => {
   document.querySelector('#about-container').innerHTML = `
   <div class="container" id="left-container">
    <img src="${profile}" id="profile-image">
@@ -42,4 +42,4 @@ const aboutMePage = () => {
   </div>`;
 };
 
-export default aboutMePage;
+export default aboutPage;

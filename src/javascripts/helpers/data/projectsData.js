@@ -1,6 +1,3 @@
-// Create a getProjects method that returns the projects array to whatever dom string builder needs the array
-// Projects Data
-
 const projects = [{
   id: 0,
   dateCompleted: 'Feb 2021',
