@@ -1,14 +1,12 @@
-import renderToDom from './helpers/renderToDom';
-import profile from '../styles/assets/profile.jpg';
-import about1 from '../styles/assets/about1.png';
-import github from '../styles/assets/github.png';
-import linkedIn from '../styles/assets/linkedIn.png';
-import medium from '../styles/assets/medium.png';
-import dog from '../styles/assets/dog.png';
+import profile from '../../styles/assets/profile.jpg';
+import about1 from '../../styles/assets/about1.png';
+import github from '../../styles/assets/github.png';
+import linkedIn from '../../styles/assets/linkedIn.png';
+import medium from '../../styles/assets/medium.png';
+import dog from '../../styles/assets/dog.png';
 
-const aboutMePage = () => {
-  let domString = '';
-  domString += `
+const aboutPage = () => {
+  document.querySelector('#about-container').innerHTML = `
   <div class="container" id="left-container">
    <img src="${profile}" id="profile-image">
   </div>
@@ -40,12 +38,8 @@ const aboutMePage = () => {
       <a href="https://danicrosby.medium.com/"><img src="${medium}" id="social-icons"></a>
       <a href="https://ofsds.org/"><img src="${dog}" id="social-icons"></a>
     </section>
-  </div>
-</div>
-  
-  `;
-
-  renderToDom('#about-me-page', domString);
+    </div>
+  </div>`;
 };
 
-export default aboutMePage;
+export default aboutPage;

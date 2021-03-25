@@ -1,11 +1,13 @@
-import aboutMePage from '../aboutMe';
-import domBuilder from '../components/domBuilder';
+import domBuilder from './domBuilder';
 import navBar from '../components/navBar';
+import getProjects from '../components/projects';
+import aboutPage from '../components/about';
 
 const startApp = () => {
   domBuilder();
   navBar();
-  aboutMePage();
+  aboutPage();
+  getProjects();
 };
 
 export default startApp;
