@@ -1,5 +1,5 @@
-import aboutMePage from '../aboutMe';
-import domBuilder from '../components/domBuilder';
+import aboutMePage from '../components/about';
+import domBuilder from './domBuilder';
 import navBar from '../components/navBar';
 
 const startApp = () => {

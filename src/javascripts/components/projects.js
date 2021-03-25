@@ -1,13 +1,9 @@
-import renderToDom from '../helpers/renderToDom';
-
-const createProjectCards = (arr) => {
-  let domString = '';
-  arr.forEach((project, i) => {
-    if (project.available === true) {
-      domString += `
+const createProjectCards = (array) => {
+  array.forEach((project) => {
+    document.querySelector('#projects-container').innerHTML += `
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center">
-          <div class="card m-5" style="width: 36rem;" id=${i}>
+          <div class="card m-5" style="width: 36rem;">
             <img src="${project.screenshot}" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">${project.title}</h5>
@@ -22,10 +18,7 @@ const createProjectCards = (arr) => {
           </div>
         </div>
       </div>`;
-    }
   });
-
-  renderToDom('#projects-page', domString);
 };
 
 export default createProjectCards;
