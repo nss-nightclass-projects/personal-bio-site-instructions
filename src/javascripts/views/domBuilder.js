@@ -2,7 +2,9 @@ const domBuilder = () => {
   document.querySelector('#app').innerHTML = `
   <div id="nav-container"></div>
   <div id="about-container"></div>
-  <div id="projects-container">projects here</div>
+  <hr>
+  <div id="projects-container"></div>
+  <hr>
   <div id="tech-container">tech here</div>`;
 };
 
