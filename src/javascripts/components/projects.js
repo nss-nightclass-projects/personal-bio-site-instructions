@@ -3,8 +3,9 @@ const getProjects = (array) => {
     document.querySelector('#projects-container').innerHTML += `
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center">
-          <div class="card m-5" style="width: 25em;">
+          <div class="card m-3" style="width: 25em;">
             <div class="card-body">
+              <img src="${item.screenshot}" class="card-img-top">
               <h5 class="card-title">${item.title}</h5>
               <p class="card-text">${item.description}</p>
               <p class="card-text">${item.technologiesUsed}</p>
