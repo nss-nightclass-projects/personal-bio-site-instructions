@@ -100,9 +100,13 @@ b {
   justify-content: flex-start;
   background-image: url(./assets/Projects.png);
   background-repeat: no-repeat;
-  background-size: 90%;
-  background-position: 10em;
-  margin-top: 15em;
+  background-size: 80%;
+  background-position: 5em;
+  margin-top: 5em;
+}
+
+.project-card-container {
+  margin-top: 25em;
 }
 
 
