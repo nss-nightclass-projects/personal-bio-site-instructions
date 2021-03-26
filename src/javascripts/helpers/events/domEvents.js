@@ -1,7 +1,5 @@
-const domEvents = () => {
-  // example
-  // document.querySelector('#start-sorting').addEventListener('click', showForm);
+// const domEvents = () => {
 
-};
+// };
 
-export default domEvents;
+// export default domEvents;
