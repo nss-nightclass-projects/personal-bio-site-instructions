@@ -4,7 +4,6 @@ const getProjects = (array) => {
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center">
           <div class="card m-5" style="width: 25em;">
-            <img src="${item.screenshot}" class="card-img-top">
             <div class="card-body">
               <h5 class="card-title">${item.title}</h5>
               <p class="card-text">${item.description}</p>

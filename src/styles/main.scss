@@ -12,9 +12,22 @@ body {
 }
 
 #about-container {
-  background-image: url(./assets/about.png);
+  background-image: url(./assets/About.png);
   background-repeat: no-repeat;
   background-size: 80%;
+  background-position: 25em;
+}
+#tech-container {
+  background-image: url(./assets/Projects.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: 25em;
+}
+
+#tech-container {
+  background-image: url(./assets/Tech.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
   background-position: 25em;
 }
 
@@ -93,36 +106,13 @@ b {
   margin-right: 1.5em;
 }
 
-
 #projects-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  background-image: url(./assets//);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: 25em;
-}
-
-#projects-left-side {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  
-}
-
-#projects-right-side {
-  display: flex;
-  justify-content: center;
-}
-
-#tech-container {
-  background-image: url(./assets/about2.png);
-  background-repeat: no-repeat;
-  background-size: 80%;
-  background-position: 25em;
 }
 
 #footer {
   text-align: center;
 }
+// <img src="${item.screenshot}" class="card-img-top">
