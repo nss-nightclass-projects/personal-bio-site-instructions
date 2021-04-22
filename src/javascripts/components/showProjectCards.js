@@ -1,5 +1,5 @@
-const showProjects = (array) => {
-  array.forEach((item) => {
+const showProjects = (projects) => {
+  projects.forEach((item) => {
     document.querySelector('#projects-container').innerHTML += `
     <div class="project-card-container">
       <div class="row">
