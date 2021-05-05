@@ -1,11 +1,12 @@
 # Personal Bio Site Finale 🎉🎉🎉
 
 1. You should go through AT LEAST 4 projects (individual or group) and deployed them.
-1. Each project should have a clickable link that goes to the deployed site.
+1. Each project should have a clickable link that goes to more details that includes a link to the Github Repo and Deployed App.
 1. You should have real data everywhere throughout your personal site. **No lorem**.
-1. Completed README (description, screenshots, 'how to run', and link to deployed site).
-
-> :warning: Don't forget to re-deploy any changes you make to firebase.
+2. Your site should allow some form of authentication so that you can make changes. 
+    - If you use Google, you may have to create a user type (ie admin) and when YOU login for the first time set yourself to true and make everyone else false so that they cannot access the private routes
+4. Your site should have CRUD in at least one form. For example, the ability to CRUD on projects.
+5. Completed README (description, screenshots, 'how to run', and link to deployed site).
 
 > Your completed personal site will be reviewed by your instructor before you start your capstone.
 
