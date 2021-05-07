@@ -1,5 +1,7 @@
 # Personal Bio Site Finale 🎉🎉🎉
 
+[See Example (she ain't pretty, but she's what we got!)](https://bio-react-example.netlify.app/)
+
 1. You should go through AT LEAST 4 projects (individual or group) and deployed them.
 1. Each project should have a clickable link that goes to more details that includes a link to the Github Repo and Deployed App.
 1. You should have real data everywhere throughout your personal site. **No lorem**.
