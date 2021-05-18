@@ -1,7 +1,5 @@
 # Personal Bio Site Finale 🎉🎉🎉
 
-[See Example (she ain't pretty, but she's what we got!)](https://bio-react-example.netlify.app/)
-
 1. You should go through AT LEAST 4 projects (individual or group) and deployed them.
 1. Each project should have a clickable link that goes to more details that includes a link to the Github Repo and Deployed App.
 1. You should have real data everywhere throughout your personal site. **No lorem**.
@@ -43,4 +41,32 @@
 	- Is it visually appealing
 	- Is it cohesive
 
+## Sample Authentication Script
+```
+import React, { useState, useEffect } from 'react';
+import firebase from 'firebase/app';
+import 'firebase/auth';
+import { useHistory } from 'react-router-dom';
 
+function App() {
+  const [admin, setAdmin] = useState(null);
+  const [loggedInUser, setLoggedInUser] = useState(null);
+
+  const history = useHistory();
+
+  useEffect(() => {
+    firebase.auth().onAuthStateChanged((authed) => {
+      if (authed && (authed.uid === process.env.REACT_APP_ADMIN_UID)) {
+        setAdmin(true);
+      } else if (admin || admin === null) {
+        setAdmin(false);
+        setLoggedInUser(false);
+      }
+    });
+  }, []);
+  
+  return(...);
+}
+
+export default App;
+```
