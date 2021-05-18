@@ -4,7 +4,7 @@
 1. Each project should have a clickable link that goes to more details that includes a link to the Github Repo and Deployed App.
 1. You should have real data everywhere throughout your personal site. **No lorem**.
 2. Your site should allow some form of authentication so that you can make changes. 
-    - If you use Google, you may have to create a user type (ie admin) and when YOU login for the first time set yourself to true and make everyone else false so that they cannot access the private routes
+    - [See a sample implementation below](https://github.com/nss-nightclass-projects/personal-bio-site-instructions/blob/master/personal-bio-site-04.md#sample-authentication-script)
 4. Your site should have CRUD in at least one form. For example, the ability to CRUD on projects.
 5. Completed README (description, screenshots, 'how to run', and link to deployed site).
 
