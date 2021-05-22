@@ -50,7 +50,6 @@ import { useHistory } from 'react-router-dom';
 
 function App() {
   const [admin, setAdmin] = useState(null);
-  const [loggedInUser, setLoggedInUser] = useState(null);
 
   useEffect(() => {
     firebase.auth().onAuthStateChanged((authed) => {
@@ -58,7 +57,6 @@ function App() {
         setAdmin(true);
       } else if (admin || admin === null) {
         setAdmin(false);
-        setLoggedInUser(false);
       }
     });
   }, []);
